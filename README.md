@@ -80,16 +80,16 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://115077621177383" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://115077621177383" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://115077621177383" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://115077621177383" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://115077621177383" }),
-    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://115077621177383" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://115077621177383" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://115077621177383" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://115077621177383" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://115077621177383" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://18413381836" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://18413381836" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://18413381836" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://18413381836" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://18413381836" }),
+    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://18413381836" }),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://18413381836" }),
+    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://18413381836" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://18413381836" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://18413381836" }),
 }
 local Options = Fluent.Options
 do
@@ -97,7 +97,7 @@ OrionLib:MakeNotification(
         {
             Name = "Notification",
             Content = "Please Wait For Loading Code",
-            Image = "rbxassetid://88147973848189",
+            Image = "rbxassetid://18413381836",
             Time = 7
         }
     )
@@ -138,7 +138,7 @@ OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(...)
 			StarterGui:SetCore("SendNotification", {
 				Title = "Hype Hub",
 				Text = "The script has successfully intercepted an attempted kick.",
-				Icon = "rbxassetid://115077621177383",
+				Icon = "rbxassetid://18413381836",
 				Duration = 2,
 			})
 		end
@@ -153,7 +153,7 @@ if getgenv().ED_AntiKick.SendNotifications then
 	StarterGui:SetCore("SendNotification", {
 		Title = "Hype Hub",
 		Text = "Anti-Kick script loaded!",
-		Icon = "rbxassetid://115077621177383",
+		Icon = "rbxassetid://18413381836",
 		Duration = 3,
 	})
 end
