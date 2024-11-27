@@ -138,7 +138,7 @@ OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(...)
 			StarterGui:SetCore("SendNotification", {
 				Title = "Hype Hub",
 				Text = "The script has successfully intercepted an attempted kick.",
-				Icon = "rbxassetid://88147973848189",
+				Icon = "rbxassetid://115077621177383",
 				Duration = 2,
 			})
 		end
