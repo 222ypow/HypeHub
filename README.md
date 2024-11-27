@@ -80,16 +80,16 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://119801939747350" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://119801939747350" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://119801939747350" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://119801939747350" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://119801939747350" }),
-    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://119801939747350" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://119801939747350" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://119801939747350" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://119801939747350" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://119801939747350" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://115077621177383" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "rbxassetid://115077621177383" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "rbxassetid://115077621177383" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "rbxassetid://115077621177383" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://115077621177383" }),
+    Fruit = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://115077621177383" }),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "rbxassetid://115077621177383" }),
+    Race = Window:AddTab({ Title = "Race V4", Icon = "rbxassetid://115077621177383" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://115077621177383" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "rbxassetid://115077621177383" }),
 }
 local Options = Fluent.Options
 do
@@ -153,7 +153,7 @@ if getgenv().ED_AntiKick.SendNotifications then
 	StarterGui:SetCore("SendNotification", {
 		Title = "Hype Hub",
 		Text = "Anti-Kick script loaded!",
-		Icon = "rbxassetid://88147973848189",
+		Icon = "rbxassetid://115077621177383",
 		Duration = 3,
 	})
 end
